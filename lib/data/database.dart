@@ -1,7 +1,7 @@
 import 'package:hive/hive.dart';
 
 class TodoDatabase {
-  final _box = Hive.box('box');
+  final _box = Hive.box('todo');
   List todoList = [];
 
   void createInitialData() {
